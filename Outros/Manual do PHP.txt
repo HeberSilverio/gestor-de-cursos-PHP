@@ -1,0 +1,3 @@
+MANUAL DO PHP
+https://www.php.net/manual/pt_BR/
+https://www.php.net/manual/pt_BR/getting-started.php

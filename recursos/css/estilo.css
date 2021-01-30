@@ -62,7 +62,7 @@ body
     padding: 20px;
 }
 
-.content
+.conteudo
 {
     position: relative;
     height: 100%;
@@ -70,7 +70,7 @@ body
     background-color: #fff;
     padding: 20px;
     box-shadow: 2px 7px 25px -4px rgba(200,230,216,1);
-    
+
 }
 
 .modulos
