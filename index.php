@@ -11,12 +11,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\exercicios.css">
     <title>Curso PHP</title>
 </head>
 <body>
+
     <header class="cabecalho">
         <h1>Curso PHP</h1>
         <h2>Índice dos Exercícios</h2>
@@ -28,14 +29,14 @@
 
     <!-- nav -->
 			<nav class="modulos">
-                 
+
 				<div class="modulo verde">
                     <h3>Módulo 01 </h3>
                     <ul>
+                        <li><a href="exercicio.php" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo vermelho">
@@ -44,7 +45,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo azul">
@@ -53,7 +54,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo roxo">
@@ -62,7 +63,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo laranja">
@@ -71,7 +72,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo verde-escuro">
@@ -80,7 +81,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo vermelhor-escuro">
@@ -89,7 +90,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo azul-escuro ">
@@ -98,7 +99,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo roxo-escuro">
@@ -107,7 +108,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo">
@@ -116,7 +117,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo">
@@ -125,7 +126,7 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
 				<div class="modulo">
@@ -134,11 +135,11 @@
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
                         <li><a href="#" title="Sobre a palestra">Exercícios A</a></li>
-                        
+
                     </ul>
                 </div>
-				
-				
+
+
 			</nav>
 
 
@@ -147,12 +148,12 @@
 
     <!-- footer -->
     <footer id="rodape" class="rodape">
-        <p>Copyright &copy; 2013 by Héber Silvério <br/>
+        <p>Copyright &copy; <?= date('Y'); ?> by Héber Silvério <br/>
             <div>
                 <a href="https://www.facebook.com/heber.silverio.73/" target="blank">Facebook |</a>
                 <a href="https://www.youtube.com/channel/UCxUTJTs6eHpBoeBcoPL3ZJg?view_as=subscriber" target="blank"> Youtube</a> </p>
             </div>
     </footer>
-    
+
 </body>
 </html>

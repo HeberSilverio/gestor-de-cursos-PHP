@@ -18,6 +18,8 @@ Ctrl + Shift + K Excluir linha
 
 *Ctrl + Alt + ↑ / ↓ Inserir cursor acima / abaixo*
 
+*Ctrl + Shift + K Excluir linha*
+
 ## Multi-cursor e seleção
 
 > Alt + Clique no cursor Inserir

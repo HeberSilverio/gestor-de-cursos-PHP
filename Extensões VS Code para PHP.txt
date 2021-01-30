@@ -1,0 +1,12 @@
+Extensões VS Code para PHP
+
+Code Runner - permite fazer execução de códigos apenas o que você selecionar
+DotENV - da suporte a arquivos .env
+EditorConfig for VS Code - 
+Path intellisense 
+Twig
+PHP Intelephense
+PHP Debug
+PHP Sniffer
+PHP Getter & Setter - adiciona atributos
+PHPUnit
