@@ -35,6 +35,9 @@ body.exercicio
 .conteudo
 {
     font-size: 1.1em;
+    color: #4a148c;
+    padding-bottom: 10px;
+
 }
 .conteudo > .titulo
 {
@@ -43,4 +46,5 @@ body.exercicio
     padding-bottom: 10px;
     border-bottom: 2px solid #999;
     margin-bottom: 20px;
+    color: #180133;
 }

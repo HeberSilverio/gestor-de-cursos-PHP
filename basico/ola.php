@@ -7,3 +7,6 @@ echo 'Será necessário colocar o echo';
 ?>
 <h3>Exemplo B</h3>
 <?= "<br>Outra forma de imprimir sem o echo" ?>
+<?php
+   phpinfo();
+?>
