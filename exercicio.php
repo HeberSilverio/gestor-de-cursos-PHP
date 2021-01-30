@@ -23,8 +23,8 @@
     </header>
 
     <!-- nav -->
-	<nav class="navegacao">
-        <a href="#" class="verde">Sem formatação</a>
+    <nav class="navegacao">
+        <a href=<?= "{$_GET['dir']}/{$_GET['file']}.php" ?> class="verde">Sem formatação</a>
         <a href="index.php" class="vermelho">Voltar</a>
     </nav>
 
@@ -32,7 +32,10 @@
     <main class="principal">
         <div class="content">
 
-
+            <?php
+                // include($_GET['dir'] . "/" . $_GET['file'] . ".php")
+                include("{$_GET['dir']}/{$_GET['file']}.php");
+            ?>
 
         </div>
     </main>
