@@ -39,6 +39,9 @@
                     <h3>02 - Tipos </h3>
                     <ul>
                         <li><a href="exercicio.php?dir=tipos&file=int">Tipo Inteiro</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=float">Tipo float</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=aritmeticas">Op. Aritméticas</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=string">Tipos String</a></li>
                     </ul>
                 </div>
 			</nav>
