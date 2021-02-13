@@ -1,12 +1,13 @@
-<div class="titulo">TAGS PHP!</div>
+<div class="titulo">Olá PHP</div>
 
-<h3>Exemplo A</h3>
+<h2>Exemplo A</h2>
 <?php
-echo 'Com a tag <?php ?> <br>';
-echo 'Será necessário colocar o echo';
+echo 'Olá ';
+echo "Mundo!";
 ?>
-<h3>Exemplo B</h3>
-<?= "<br>Outra forma de imprimir sem o echo" ?>
+
+<h2>Exemplo B</h2>
+<?= "Outra forma de me 'expressar'!" ?>
+
 <?php
-   phpinfo();
-?>
+phpinfo();

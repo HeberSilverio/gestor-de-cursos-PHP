@@ -1,23 +1,26 @@
-<div class="titulo">Comentários PHP!</div>
+<div class="titulo">Comentários PHP</div>
 
-<h3>Comentário usando //</h3>
 <?php
-echo 'Comentários em PHP é apenas //';
-// echo 'Comentários são com barra barra';
-# echo 'Comentários são com barra barra';
-?>
-<h3>Comentário usando #</h3>
-<?php
-echo 'Outra forma é com #';
-// echo 'Comentários são com barra barra';
-# echo 'Comentários são com barra barra';
-?>
-<h3>Comentário de múltiplas linhas /**/</h3>
+echo "Estou no PHP";
+// echo "Comentário";
+# echo "Comentário";
+# echo // "Comentário";
+// echo # "Comentário";
+# ?>
+
+<p>Depois do primeiro bloco!</p>
+<!-- 
+    <p>Comentário HTML 1</p>
+    <p>Comentário HTML 2</p>
+    <p>Comentário HTML 3</p>
+-->
+
 <?php
 /*
-    1. echo 'Outra forma é com #';
-    2. echo 'Comentários são com barra barra';
-    3  echo 'Comentários com';
+    Linha 1 do comentário
+    Linha 2 do comentário
+    Linha 3 do comentário
 */
 ?>
 
+<p>Depois do segundo bloco!</p>
