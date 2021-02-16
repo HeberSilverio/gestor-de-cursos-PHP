@@ -3,7 +3,7 @@
 <?php
 $numero = 10;
 echo $numero;
-echo '<br> $numero';
+echo '<br> $numero'; //
 echo "<br> $numero";
 
 $texto = "A sua nota é: $numero";
