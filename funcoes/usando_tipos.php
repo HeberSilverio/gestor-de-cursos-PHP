@@ -2,7 +2,7 @@
 
 <?php
 function somar1($a, $b) {
-    echo "<span>Somando $a + $b = </span>";
+    echo "<strong>Somando $a + $b = </strong>";
     return $a + $b;
 }
 
@@ -21,9 +21,10 @@ echo somar2(1, '4dois') . '<br>';
 
 function somar3($a, float $b): int {
     echo "<span>Somando $a + $b = </span>";
-    return $a + $b;
+     return  $a + $b;
 }
 
 echo somar3(1, 2) . '<br>';
 echo somar3(1.7, 2.5) . '<br>';
 echo somar3(1, '4dois') . '<br>';
+echo "<strong>Como chamar uma função e dar echo com strong?</strong>" . somar3(3, 0);
