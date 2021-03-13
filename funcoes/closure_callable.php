@@ -34,4 +34,6 @@ function executar2($a, $b, $op, Closure $funcao) {
 
 echo '<br>';
 executar2(100, 100, '+', $soma1);
-executar2(3000, 3000, '+', soma2);
+
+
+echo "Função aprendida na aula <strong> is_callable()</strong>";

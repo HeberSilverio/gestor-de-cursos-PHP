@@ -27,3 +27,6 @@ function somaRecursivaEconomica($numero) {
 }
 
 echo somaRecursivaEconomica(150) . '<br>';
+
+echo "7!" . "<br>" ;
+echo "=> 7 * 6!";
