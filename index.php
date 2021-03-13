@@ -23,6 +23,11 @@
                             </a>
                         </li>
                         <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=about-classe">
+                                Conceito de Classe
+                            </a>
+                        </li>
+                        <li>
                             <a href="exercicio.php?dir=classes_objetos&file=data">
                                 Classe Data
                             </a>
