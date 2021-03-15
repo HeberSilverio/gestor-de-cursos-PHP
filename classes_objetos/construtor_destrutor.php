@@ -12,7 +12,7 @@ class Pessoa {
     }
 
     function __destruct() {
-        echo 'E morreu!<br>';
+        echo "E {$this->nome} morreu! - O unset chamou o destrutor e liberou a referência na memória. <br>";
     }
 
     public function apresentar() {
@@ -23,10 +23,9 @@ class Pessoa {
 // $pessoa = new Pessoa(); // Problema
 
 $pessoaA = new Pessoa('Rebeca Maria', 40);
-$pessoaB = new Pessoa('João Pedro');
-
 $pessoaA->apresentar();
 unset($pessoaA);
 
+$pessoaB = new Pessoa('João Pedro');
 $pessoaB->apresentar();
 $pessoaB = null;
