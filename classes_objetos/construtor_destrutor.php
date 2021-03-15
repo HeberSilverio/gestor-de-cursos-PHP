@@ -12,7 +12,7 @@ class Pessoa {
     }
 
     function __destruct() {
-        echo "E {$this->nome} morreu! - O unset chamou o destrutor e liberou a referência na memória. <br>";
+        echo "E {$this->nome} morreu! - O unset chamou o destrutor e liberou a referência na memória.<br><br>";
     }
 
     public function apresentar() {

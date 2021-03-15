@@ -38,6 +38,11 @@
                             </a>
                         </li>
                         <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=paradigmas">
+                                Paradigmas
+                            </a>
+                        </li>
+                        <li>
                             <a href="exercicio.php?dir=classes_objetos&file=heranca">
                                 Herança
                             </a>
