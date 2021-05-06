@@ -7,28 +7,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class DataInicio {
     public $dia = 1;
     public $mes = 1;

@@ -1,5 +1,6 @@
 <div class="titulo">Membros Estáticos</div>
-
+<p>Para chamar um membro de classe é utiliza duplo dois pontos ::$nome </p>
+<p>E para invocá-lo dentro da função não é através do $this, é necessário utilizar  self::$nome </p>
 <?php
 class A {
     public $naoStatic = 'Variável de instância';
@@ -13,7 +14,7 @@ class A {
         // echo "Estática = {self::$static}<br>";
         echo "Estática = " . self::$static . "<br>";
     }
-    
+
     public static function mostrarStaticA() {
         // echo "Não estática = {$this->naoStatic}<br>";
         // echo "Estática = {$static}<br>";
@@ -31,3 +32,11 @@ A::mostrarStaticA(); // acessar diretamente pela classe
 
 A::$static = 'Alterado membro de classe!';
 echo A::$static, '<br>'; // acessar diretamente pela classe
+
+?>
+<style>
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+</style>

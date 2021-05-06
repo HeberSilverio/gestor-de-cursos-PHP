@@ -33,7 +33,8 @@ body.exercicio {
 .navegacao > a.vermelho { background-color: #F44336; }
 
 .conteudo {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
     color: #66CDAA;
     background-color: #282a36;
 }
