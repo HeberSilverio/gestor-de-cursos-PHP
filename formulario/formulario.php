@@ -1,8 +1,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<div class="titulo">Formulário</div>
 
-<h2>Cadastro</h2>
 
+<div class="container">
+<h2 class="text-center">Trabalhe Conosco</h2>
+<h4>CONHEÇA AS OPORTUNIDADES NA SOLUCENTER E VENHA FAZER PARTE DO NOSSO TIME!</h4>
+    <p><strong> Fique por dentro de nossas vagas, preencha o formulário abaixo.</strong><br/> <small>Os campo marcados com (*) são obrigatórios.</small></p>
 <?php
 if(count($_POST) > 0) {
     $erros = [];
@@ -60,7 +62,7 @@ if(count($_POST) > 0) {
         <div class="form-group col-md-6">
             <label for="telefone">Telefone fixo:</label>
             <input type="text" class="form-control <?= $erros['telefone'] ? 'is-invalid' : ''?>"
-                id="telefone" name="telefone" placeholder="Telefone fixo:*" value="<?= $_POST['telefone'] ?>">
+                id="telefone" name="telefone" placeholder="Telefone fixo:" value="<?= $_POST['telefone'] ?>">
             <div class="invalid-feedback">
                 <?= $erros['telefone'] ?>
             </div>
@@ -88,14 +90,14 @@ if(count($_POST) > 0) {
             <textarea class="form-control" id="mensagem" placeholder="Mensagem:*" rows="3"></textarea>
 
         </div>
-        <div class="col-md-12 text-left">
+        <div class="col-md-12 text-left mb-3">
             <label for="arquivo">Anexe seu currículo: (.doc | .docx | .pdf)</label>
-            <input name="arquivo" type="file" class="form-control-file" id="arquivo" required>
-            
+            <input name="arquivo" type="file" class="form-control-file" id="arquivo" value="<?= $_POST['arquivo'] ?> required>
         </div>
-        <br><br>
+
     </div>
     <div class="col-md-12">
         <button onclick="ga('send','event','consulte', 'pedido_de_consulta')" type="submit" id="btnSobConsulte" class="btn btn-success btn-block">ENVIAR</button>
     </div>
 </form>
+</div>
