@@ -6,6 +6,13 @@
 <h4>CONHEÇA AS OPORTUNIDADES NA SOLUCENTER E VENHA FAZER PARTE DO NOSSO TIME!</h4>
     <p><strong> Fique por dentro de nossas vagas, preencha o formulário abaixo.</strong><br/> <small>Os campo marcados com (*) são obrigatórios.</small></p>
 <?php
+$data = filter_input_array(INPUT_POST, FILTER_DEFAULT);
+
+
+if(!empty($data['btnSobConsulte'])){
+    echo var_dump($data);
+}
+
 if(count($_POST) > 0) {
     $erros = [];
 
@@ -38,7 +45,7 @@ if(count($_POST) > 0) {
 <form action="#" method="post">
     <div class="form-row">
         <div class="form-group col-md-12">
-            <label for="nome">Nome</label>
+            <label for="nome">Nome:</label>
             <input type="text" class="form-control <?= $erros['nome'] ? 'is-invalid' : ''?>"
                 id="nome" name="nome" placeholder="Nome Completo:*" value="<?= $_POST['nome'] ?>">
             <div class="invalid-feedback">
@@ -49,7 +56,7 @@ if(count($_POST) > 0) {
     </div>
     <div class="form-row">
         <div class="form-group col-md-12">
-            <label for="email">E-mail</label>
+            <label for="email">E-mail:</label>
             <input type="text"
                 class="form-control <?= $erros['email'] ? 'is-invalid' : ''?>"
                 id="email" name="email" placeholder="E-mail:*" value="<?= $_POST['email'] ?>">
@@ -68,7 +75,7 @@ if(count($_POST) > 0) {
             </div>
         </div>
         <div class="form-group col-md-6">
-            <label for="celular">Telefone celular</label>
+            <label for="celular">Telefone celular:</label>
             <input type="text"
                 class="form-control <?= $erros['celular'] ? 'is-invalid' : ''?>"
                 id="celular" name="celular" placeholder="Telefone celular:*"
@@ -87,7 +94,7 @@ if(count($_POST) > 0) {
         </div>
         <div class="col-md-12 text-left">
             <label for="mensagem">Sua mensagem:</label>
-            <textarea class="form-control" id="mensagem" placeholder="Mensagem:*" rows="3"></textarea>
+            <textarea id="mensagem" class="form-control" id="mensagem" placeholder="Mensagem:*" rows="3"></textarea>
 
         </div>
         <div class="col-md-12 text-left mb-3">
@@ -97,7 +104,7 @@ if(count($_POST) > 0) {
 
     </div>
     <div class="col-md-12">
-        <button onclick="ga('send','event','consulte', 'pedido_de_consulta')" type="submit" id="btnSobConsulte" class="btn btn-success btn-block">ENVIAR</button>
+        <button onclick="ga('send','event','consulte', 'pedido_de_consulta')" type="submit" id="btnSobConsulte" name="SendAddMsg" class="btn btn-success btn-block">ENVIAR</button>
     </div>
 </form>
 </div>
